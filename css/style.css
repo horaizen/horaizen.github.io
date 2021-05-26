@@ -593,6 +593,7 @@ display: block;
 	}
 
 	.contact-form .form-control{
+		color:white;
 		border-radius: 0px;
 		background-color: transparent;
 		margin-top: 28px;
