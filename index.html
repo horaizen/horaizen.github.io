@@ -32,6 +32,22 @@
 		<script src="js/respond.js"></script>
     <![endif]-->
 	
+	
+	<script type="text/javascript">
+  (function() {
+    window.sib = { equeue: [], client_key: "9m1m3a55yh6n7gnerzfatile" };
+    /* OPTIONAL: email to identify request*/
+    // window.sib.email_id = 'example@domain.com';
+    /* OPTIONAL: to hide the chat on your script uncomment this line (0 = chat hidden; 1 = display chat) */
+    // window.sib.display_chat = 0;
+    // window.sib.display_logo = 0;
+    /* OPTIONAL: to overwrite the default welcome message uncomment this line*/
+    // window.sib.custom_welcome_message = 'Hello, how can we help you?';
+    /* OPTIONAL: to overwrite the default offline message uncomment this line*/
+    // window.sib.custom_offline_message = 'We are currently offline. In order to answer you, please indicate your email in your messages.';
+    window.sendinblue = {}; for (var j = ['track', 'identify', 'trackLink', 'page'], i = 0; i < j.length; i++) { (function(k) { window.sendinblue[k] = function(){ var arg = Array.prototype.slice.call(arguments); (window.sib[k] || function() { var t = {}; t[k] = arg; window.sib.equeue.push(t);})(arg[0], arg[1], arg[2]);};})(j[i]);}var n = document.createElement("script"),i = document.getElementsByTagName("script")[0]; n.type = "text/javascript", n.id = "sendinblue-js", n.async = !0, n.src = "https://sibautomation.com/sa.js?key=" + window.sib.client_key, i.parentNode.insertBefore(n, i), window.sendinblue.page();
+  })();
+</script>
 </head>
 <body>
 <div class="topnav">
@@ -125,7 +141,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="about-title">About Us</h1>
+					<h1 class="about-title">About Me</h1>
 					<div class="service-aro-icon">
 						<div class="service-aro-left"></div>
 							<i class="fa fa-group"></i>
@@ -137,7 +153,7 @@
 				<center>
 				<div class="col-md-15 text-center member">
 					<div class="member-img">
-						<img src="https://instagram.ftpa1-1.fna.fbcdn.net/v/t51.2885-19/s320x320/123282795_656988141676549_8664824265635630374_n.jpg?tp=1&_nc_ht=instagram.ftpa1-1.fna.fbcdn.net&_nc_ohc=n6Uuur6q3oEAX-jgNxD&edm=ABfd0MgAAAAA&ccb=7-4&oh=f8798671fb04dcdbdd824d555756ffd6&oe=60946C47&_nc_sid=7bff83" alt="" />
+						<img src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_1280.png" alt="" />
 						<!--<div class="member-social">
 							<a class="facebook-icon" href=""><i class="fa fa-facebook"></i></a>
 							<a class="twitter-icon" href=""><i class="fa fa-twitter"></i></a>
